@@ -16,6 +16,9 @@
 .bg-secondary-color {
     background-color: #2C3E4F;
 }
+.bg-tertiary-color {
+    background-color: #3b536d;
+}
 
 /*----------------------
     TYPO
@@ -53,4 +56,12 @@ header {
 
 .about {
     color: #fff;
+}
+
+/*----------------------
+    FOOTER
+-----------------------*/
+footer {
+    color: #fff;
+    text-align: center;
 }
