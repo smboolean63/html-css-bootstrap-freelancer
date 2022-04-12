@@ -1,0 +1,25 @@
+/*----------------------
+    COLORS
+-----------------------*/
+
+.bg-primary-color {
+    background-color: #19BC9C;
+}
+.bg-secondary-color {
+    background-color: #2C3E4F;
+}
+
+/*----------------------
+    HEADER
+-----------------------*/
+header {
+    color: #fff;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 0 10px;
+    margin-bottom: 0px;
+}
