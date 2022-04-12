@@ -31,3 +31,7 @@ header {
     color: #fff;
     text-align: center;
 }
+
+.portfolio img {
+    width: 100%;
+}
