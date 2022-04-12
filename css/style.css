@@ -23,3 +23,11 @@ header {
     gap: 0 10px;
     margin-bottom: 0px;
 }
+
+/*----------------------
+    MAIN
+-----------------------*/
+.hero {
+    color: #fff;
+    text-align: center;
+}
