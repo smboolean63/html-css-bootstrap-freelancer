@@ -1,4 +1,12 @@
 /*----------------------
+    CONTAINERS
+-----------------------*/
+.wrapper-small {
+    width: 60%;
+    margin: auto;
+}
+
+/*----------------------
     COLORS
 -----------------------*/
 
@@ -7,6 +15,13 @@
 }
 .bg-secondary-color {
     background-color: #2C3E4F;
+}
+
+/*----------------------
+    TYPO
+-----------------------*/
+h2 {
+    text-align: center;
 }
 
 /*----------------------
@@ -34,4 +49,8 @@ header {
 
 .portfolio img {
     width: 100%;
+}
+
+.about {
+    color: #fff;
 }
