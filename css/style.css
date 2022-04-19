@@ -5,6 +5,14 @@
     width: 60%;
     margin: auto;
 }
+/*----------------------
+    BUTTONS
+-----------------------*/
+.btn_white {
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+}
 
 /*----------------------
     COLORS
