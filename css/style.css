@@ -53,9 +53,33 @@ header {
     color: #fff;
     text-align: center;
 }
-
+.portfolio {
+    position: relative;
+}
 .portfolio img {
     width: 100%;
+    border-radius: 10px;
+}
+.portfolio-overlay {
+    background-color: rgba(25, 188, 156, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    font-size: 60px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.4s;
+    cursor: pointer;
+}
+.portfolio:hover .portfolio-overlay {
+    opacity: 1;
 }
 
 .about {
@@ -74,7 +98,7 @@ header {
     content: "";
     display: block;
     height: 3px;
-    background-color: #fff;
+    background-color: currentColor;
     border-radius: 3px;
     max-width: 150px;
     width: 100%;
