@@ -34,6 +34,10 @@ header {
     color: #fff;
 }
 
+.avatar {
+    max-height: 300px;
+}
+
 .main-nav ul {
     display: flex;
     list-style: none;
@@ -56,6 +60,24 @@ header {
 
 .about {
     color: #fff;
+}
+
+.separator {
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    margin: 16px 0;
+}
+.separator::before, .separator::after {
+    content: "";
+    display: block;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 3px;
+    max-width: 150px;
+    width: 100%;
 }
 
 /*----------------------
